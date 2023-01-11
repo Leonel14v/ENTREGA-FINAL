@@ -1,0 +1,196 @@
+@media (min-width:992px) and (max-width:1199px) {
+    .img-portada {
+        height: 600px;
+    }
+    .item_p {
+        width: 900px;
+        margin-left: 50px;
+    }
+    .item_p-img {
+        margin-left: 190px;
+    }
+    .img_mercu-par {
+        margin-left: 190px;
+    }
+    .img-font{
+        position: relative;
+        bottom: 380px;
+        left: 270px;
+    }
+    .font-p {
+        position: relative;
+        top: 300px;
+    }
+    .img-pot {
+        position: relative;
+        top: 290px;
+        left: -220px;
+    }
+    .font-deacon {
+        position: relative;
+        top: 170px;
+    }
+    .font-col {
+        position: relative;
+        top: 480px;
+        bottom: 100px;
+        width: 800px;
+        left: 120px;
+    }
+    .font-brian {
+        position: relative;
+        bottom: 260px;
+        left: 30px;
+    }
+    .col video{
+        position: relative;
+        left: -100px;
+    }
+    .item-titulo {
+        position: relative;
+        left: -100px;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+   .item_p {
+    width: 700px;
+   }
+   .item_p-img {
+    margin-left: 100px;
+   }
+   .img_mercu-par {
+    width: 400px;
+    margin-left: 160px;
+   }
+   .img-font {
+    position: relative;
+    bottom: 560px;
+   }
+   .font-p {
+    position: relative;
+    top: 290px;
+    left: -20px;
+   }
+   .img-pot {
+    position: relative;
+    bottom: 90px;
+   }
+   .font-deacon {
+    position: relative;
+    bottom: 160px;
+   }
+   .font-col {
+    width: 400px;
+    position: relative;
+    left: 195px;
+    top: 200px;
+}
+   .font-brian {
+    position: relative;
+    bottom: 890px;
+   }
+   .col video {
+    position: relative;
+    left: -200px;
+   }
+   .item-titulo {
+    position: relative;
+    left: -200px;
+   }
+}
+@media (min-width:638px) and (max-width:767px) {
+    .item_p {
+        width: 600px;
+    }
+    .item_p-img {
+        position: relative;
+        left:-340px;
+    }
+    .img_mercu-par {
+        position: relative;
+        margin-left: -40px;
+        margin-bottom: 300px;
+    }
+    .img-font {
+        position: relative;
+        bottom: 950px;
+    }
+    .img-pot{
+        position: relative;
+        bottom: 680px;
+    }
+    .font-deacon {
+        position: relative;
+        bottom: 690px;
+    }
+    .font-brian {
+        position: relative;
+        bottom:  1300px;
+    }
+    .font-col {
+        position: relative;
+        bottom: 400px
+    }
+    .col video {
+        position: relative;
+        left: -300px;
+    }
+    .item-titulo {
+        position: relative;
+        left:-150px;
+    }
+}
+@media (min-width:575px) and (max-width:638px) {
+    .img-portada {
+        display: none;
+    }
+    .item_p {
+       width: 500px;
+    }
+    .item_p-img {
+        position: relative;
+        left: -290px;
+        width: 400px;
+    }
+    .img_mercu-par {
+        width: 400px;
+        position: relative;
+        left: 90px;
+    }
+    .font-p {
+        position: relative;
+        top: 200px;
+    }
+    .img-font {
+       position: relative;
+       bottom: 550px;
+       left: 20px;
+    }
+    .img-pot {
+        position: relative;
+        bottom: 200px ; 
+        left: 20px;
+    }
+    .font-deacon {
+        position: relative;
+        bottom: 250px;
+    }
+    .font-brian {
+        position: relative;
+        bottom: 1000px;
+    }
+    .font-col {
+        width: 400px;
+        position: relative;
+        top: 130px;
+        left: 120px;
+    }
+    .col video {
+        position: relative;
+        left: -270px;
+    }
+    .item-titulo {
+        position: relative;
+        left: -150px;
+    }
+}

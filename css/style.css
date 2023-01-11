@@ -1,0 +1,304 @@
+/*INDEX*/
+.img-portada {
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-image: url(../recursos/imagenes/Youtube-Queen-JN2112-Still-34.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.titulo-in {
+  text-align: center;
+  font-family: "rock";
+  font-size: 50px;
+  color: white; }
+
+.item_p {
+  font-family: "roll";
+  font-size: 15px;
+  color: white;
+  width: 1300px;
+  margin-left: 35px; }
+  .item_p-img {
+    width: 600px;
+    margin-left: 370px;
+    border-radius: 10px;
+    transition: all 300ms; }
+    .item_p-img:hover {
+      transform: scale(1.15); }
+
+/*INTEGRANTES*/
+.img_mercu {
+  border-radius: 10px;
+  margin-top: 30px;
+  transition: all 300ms; }
+  .img_mercu:hover {
+    transform: scale(1.15); }
+  .img_mercu-par {
+    color: white;
+    width: 600px;
+    margin-top: 80px;
+    font-family: "roll"; }
+    .img_mercu-par-tay {
+      width: 600px;
+      color: white;
+      margin-top: 40px;
+      font-family: "roll";
+      margin-left: -50px; }
+
+.img_brian {
+  border-radius: 10px;
+  margin-top: 70px;
+  transition: all 300ms; }
+  .img_brian:hover {
+    transform: scale(1.15); }
+
+.titulo-integrantes {
+  text-align: center;
+  color: white;
+  font-family: "rock"; }
+
+/*CANCIONES*/
+.queen-cancion {
+  width: 500px;
+  border-radius: 20px; }
+  .queen-cancion-item {
+    width: 490px;
+    border-radius: 20px; }
+
+.col video {
+  margin-left: 300px;
+  margin-top: 100px; }
+
+.titulo-canciones {
+  color: white;
+  text-align: center;
+  font-family: "rock";
+  margin-top: 20px; }
+
+.item-titulo {
+  position: relative;
+  color: white;
+  font-family: "roll";
+  margin-left: 300px;
+  top: 100px; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "rock";
+  src: url(../recursos/tipografias/NewRocker-Regular.ttf); }
+
+@font-face {
+  font-family: "roll";
+  src: url(../recursos/tipografias/RocknRollOne-Regular.ttf); }
+
+body {
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+footer {
+  font-size: 1.3rem;
+  padding: 40px;
+  margin-top: 40px; }
+
+.navbar-brand {
+  position: relative;
+  font-family: "rock";
+  font-size: 30px; }
+
+.nav-link {
+  font-family: "rock";
+  color: white;
+  font-size: 20px;
+  position: relative; }
+
+.navbar a:after {
+  content: "";
+  position: absolute;
+  background-color: red;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s; }
+
+.navbar a:hover:after {
+  width: 100%; }
+
+.redes-sociales {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  margin-left: -40px; }
+  .redes-sociales-li {
+    display: inline-block;
+    margin: 0px 10px; }
+    .redes-sociales-li-item {
+      text-decoration: none;
+      color: white;
+      font-family: "roll"; }
+      .redes-sociales-li-item:hover {
+        color: black; }
+
+.bi {
+  color: white; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .img-portada {
+    height: 600px; }
+  .item_p {
+    width: 900px;
+    margin-left: 50px; }
+  .item_p-img {
+    margin-left: 190px; }
+  .img_mercu-par {
+    margin-left: 190px; }
+  .img-font {
+    position: relative;
+    bottom: 380px;
+    left: 270px; }
+  .font-p {
+    position: relative;
+    top: 300px; }
+  .img-pot {
+    position: relative;
+    top: 290px;
+    left: -220px; }
+  .font-deacon {
+    position: relative;
+    top: 170px; }
+  .font-col {
+    position: relative;
+    top: 480px;
+    bottom: 100px;
+    width: 800px;
+    left: 120px; }
+  .font-brian {
+    position: relative;
+    bottom: 260px;
+    left: 30px; }
+  .col video {
+    position: relative;
+    left: -100px; }
+  .item-titulo {
+    position: relative;
+    left: -100px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .item_p {
+    width: 700px; }
+  .item_p-img {
+    margin-left: 100px; }
+  .img_mercu-par {
+    width: 400px;
+    margin-left: 160px; }
+  .img-font {
+    position: relative;
+    bottom: 560px; }
+  .font-p {
+    position: relative;
+    top: 290px;
+    left: -20px; }
+  .img-pot {
+    position: relative;
+    bottom: 90px; }
+  .font-deacon {
+    position: relative;
+    bottom: 160px; }
+  .font-col {
+    width: 400px;
+    position: relative;
+    left: 195px;
+    top: 200px; }
+  .font-brian {
+    position: relative;
+    bottom: 890px; }
+  .col video {
+    position: relative;
+    left: -200px; }
+  .item-titulo {
+    position: relative;
+    left: -200px; } }
+
+@media (min-width: 638px) and (max-width: 767px) {
+  .item_p {
+    width: 600px; }
+  .item_p-img {
+    position: relative;
+    left: -340px; }
+  .img_mercu-par {
+    position: relative;
+    margin-left: -40px;
+    margin-bottom: 300px; }
+  .img-font {
+    position: relative;
+    bottom: 950px; }
+  .img-pot {
+    position: relative;
+    bottom: 680px; }
+  .font-deacon {
+    position: relative;
+    bottom: 690px; }
+  .font-brian {
+    position: relative;
+    bottom: 1300px; }
+  .font-col {
+    position: relative;
+    bottom: 400px; }
+  .col video {
+    position: relative;
+    left: -300px; }
+  .item-titulo {
+    position: relative;
+    left: -150px; } }
+
+@media (min-width: 575px) and (max-width: 638px) {
+  .img-portada {
+    display: none; }
+  .item_p {
+    width: 500px; }
+  .item_p-img {
+    position: relative;
+    left: -290px;
+    width: 400px; }
+  .img_mercu-par {
+    width: 400px;
+    position: relative;
+    left: 90px; }
+  .font-p {
+    position: relative;
+    top: 200px; }
+  .img-font {
+    position: relative;
+    bottom: 550px;
+    left: 20px; }
+  .img-pot {
+    position: relative;
+    bottom: 200px;
+    left: 20px; }
+  .font-deacon {
+    position: relative;
+    bottom: 250px; }
+  .font-brian {
+    position: relative;
+    bottom: 1000px; }
+  .font-col {
+    width: 400px;
+    position: relative;
+    top: 130px;
+    left: 120px; }
+  .col video {
+    position: relative;
+    left: -270px; }
+  .item-titulo {
+    position: relative;
+    left: -150px; } }

@@ -1,0 +1,21 @@
+.redes-sociales {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    margin-left: -40px;
+    &-li {
+        display: inline-block;
+        margin: 0px 10px;
+        &-item {
+            text-decoration: none;
+            color: white;
+            font-family: "roll";
+            &:hover {
+                color: black;
+            }
+        }
+    }
+}
+.bi {
+    color: white;
+}

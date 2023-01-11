@@ -1,0 +1,94 @@
+/*INDEX*/
+.img-portada { 
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-image: url(../recursos/imagenes/Youtube-Queen-JN2112-Still-34.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.titulo-in {
+    text-align: center;
+    font-family: "rock";
+    font-size: 50px;
+    color: white;
+}
+.item_p {
+    font-family: "roll";
+    font-size: 15px;
+    color: white;
+    width: 1300px;
+    margin-left: 35px;
+    &-img {
+        width: 600px;
+        margin-left: 370px;
+        border-radius: 10px;
+        transition: all 300ms;
+        &:hover {
+           transform: scale(1.15);
+        }
+    }
+}
+/*INTEGRANTES*/
+.img_mercu {
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: all 300ms;
+    &:hover {
+        transform: scale(1.15);
+        }
+    &-par {
+        color: white;
+        width: 600px;
+        margin-top: 80px;
+        font-family: "roll";
+        &-tay {
+            width: 600px;
+            color: white;
+            margin-top: 40px;
+            font-family: "roll";
+            margin-left: -50px;
+        }
+    }
+}
+.img_brian {
+    border-radius: 10px;
+    margin-top: 70px;
+    transition: all 300ms;
+    &:hover {
+      transform: scale(1.15);
+    }
+}
+.titulo-integrantes {
+    text-align: center;
+    color: white;
+    font-family: "rock";
+}
+/*CANCIONES*/
+.queen-cancion {
+    width: 500px;
+    border-radius: 20px;
+    &-item {
+        width:  490px;
+        border-radius: 20px;
+    }
+}
+.col video {
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.titulo-canciones {
+    color: white;
+    text-align: center;
+    font-family: "rock";
+    margin-top: 20px;
+}
+.item-titulo {
+    position: relative;
+    color: white;
+    font-family: "roll";
+    margin-left: 300px;
+    top: 100px;
+}

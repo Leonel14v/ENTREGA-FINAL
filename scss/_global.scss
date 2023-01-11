@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "rock";
+    src: url(../recursos/tipografias/NewRocker-Regular.ttf);
+}
+@font-face {
+    font-family: "roll";
+    src: url(../recursos/tipografias/RocknRollOne-Regular.ttf);   
+}
+body{
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+footer {
+    font-size: 1.3rem;
+    padding: 40px;
+    margin-top: 40px;
+}

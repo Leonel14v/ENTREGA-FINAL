@@ -1,0 +1,23 @@
+.navbar-brand {
+    position: relative;
+    font-family: "rock";
+    font-size: 30px;
+}
+.nav-link {
+    font-family: "rock";
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+.navbar a:after {
+    content: "";
+    position: absolute;
+    background-color: red;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s; }
+  
+  .navbar a:hover:after {
+    width: 100%; }
